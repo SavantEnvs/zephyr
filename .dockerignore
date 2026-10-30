@@ -1,0 +1,7 @@
+# Keep local build output and cruft out of the build context; .git stays (the grader uses the history).
+/build*/
+/.cache/
+**/__pycache__/
+.DS_Store
+*.swp
+*~
